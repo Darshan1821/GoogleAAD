@@ -1,0 +1,14 @@
+Methods to create Toast:
+1) Toast.makeText(context,message,duration)
+2) new Toast(context)
+
+Show a toast:
+show()
+
+Other Methods:
+1) setView(view)
+2) setGravity(Gravity.TOP, x-offset, y-offset)
+3) setDuration(time)
+
+Do not use the public constructor for a Toast unless you are going to define the layout with setView(View). 
+If you do not have a custom layout to use, you must use makeText(Context, int, int) to create the Toast.
